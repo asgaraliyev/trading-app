@@ -1,0 +1,29 @@
+@import 'antd-mobile/bundle/style.css';
+
+:root {
+  --adm-color-primary: #6366f1;
+  --adm-color-success: #22c55e;
+  --adm-color-warning: #eab308;
+  --adm-color-danger: #ef4444;
+}
+
+.dark {
+  --adm-color-background: #111827;
+  --adm-color-text: #f3f4f6;
+  --adm-color-text-secondary: #9ca3af;
+  --adm-border-color: #374151;
+
+  background-color: var(--adm-color-background);
+  color: var(--adm-color-text);
+}
+
+.chart-container {
+  height: 300px;
+  width: 100%;
+}
+
+.tabbar {
+  backdrop-filter: blur(10px);
+  background-color: rgba(17, 24, 39, 0.8);
+  border-top: 1px solid var(--adm-border-color);
+}
